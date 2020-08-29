@@ -23,4 +23,30 @@ public class Book {
         this.nameOfAuthors = nameOfAuthors;
         this.isbnNumberOfBooks = isbnNumberOfBooks;
     }
+
+    //creating the getter method for the fields
+    public String getNameOfBooks() {
+        return nameOfBooks;
+    }
+
+    //now,we will create setter method for every variable
+    public void setNameOfBooks(String nameOfBooks) {
+        this.nameOfBooks = nameOfBooks;
+    }
+
+    public String getNameOfAuthors() {
+        return nameOfAuthors;
+    }
+
+    public void setNameOfAuthors(String nameOfAuthors) {
+        this.nameOfAuthors = nameOfAuthors;
+    }
+
+    public String getIsbnNumberOfBooks() {
+        return isbnNumberOfBooks;
+    }
+
+    public void setIsbnNumberOfBooks(String isbnNumberOfBooks) {
+        this.isbnNumberOfBooks = isbnNumberOfBooks;
+    }
 }
