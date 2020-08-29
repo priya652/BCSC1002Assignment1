@@ -55,4 +55,8 @@ public class Book {
                 + "Name of Author of Book:" + "" + getNameOfAuthors() + "\n"
                 + "IsBN code Of the Book:" + "" + this.isbnNumberOfBooks + ",";
     }
+
+    public void doCheckout() {
+        System.out.println("THANK YOU FOR RENTING A BOOK.");
+    }
 }
