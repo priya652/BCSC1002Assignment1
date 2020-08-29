@@ -7,4 +7,8 @@
 package definitions;
 
 public class Book {
+    private String nameOfBooks;
+    private String nameOfAuthors;
+    //since it should be a of 13 Digits
+    private String isbnNumberOfBooks;
 }
