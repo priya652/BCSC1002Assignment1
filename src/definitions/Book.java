@@ -17,4 +17,10 @@ public class Book {
         this.nameOfAuthors = "RD SHARAMA";
         this.isbnNumberOfBooks = "5639206778924";
     }
+
+    public Book(String nameOfBooks, String nameOfAuthors, String isbnNumberOfBooks) {
+        this.nameOfBooks = nameOfBooks;
+        this.nameOfAuthors = nameOfAuthors;
+        this.isbnNumberOfBooks = isbnNumberOfBooks;
+    }
 }
