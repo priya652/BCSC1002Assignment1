@@ -54,7 +54,7 @@ public class Library {
      * @addBooks TO STORE THE BOOKS IN
      */
     public void addBooks(String bookName) {
-        System.out.println(bookName + ",is added Succesfully.");
+        System.out.println(bookName + ",is added Successfully.");
     }
 
     /**
