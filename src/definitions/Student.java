@@ -78,6 +78,7 @@ public class Student {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
         return getStudentUniversityRollNo() == student.getStudentUniversityRollNo() &&
                 numberOfBooksIssued == student.numberOfBooksIssued &&
                 Objects.equals(getFirstNameOfStudent(), student.getFirstNameOfStudent()) &&
