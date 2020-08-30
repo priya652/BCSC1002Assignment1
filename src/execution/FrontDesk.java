@@ -34,7 +34,7 @@ public class FrontDesk {
         Long rollNumber = scannerObject.nextLong();
         scannerObject.nextLine();
         System.out.println("-=-=--=-=-\"WELCOME," + firstname + ",TO THE FRONT DESK\"-=-=--=-=-");
-        System.out.println("HOW MAY I HELP YOU TODAY?");
+        System.out.println("How may i help you today?");
         System.out.println("1. Issue a new book for me.");
         System.out.println("2. Return a previously issues book for me.");
         System.out.println("3. Show me all my issues books.");
