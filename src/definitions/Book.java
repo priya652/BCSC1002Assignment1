@@ -6,14 +6,12 @@
 package definitions;
 
 import java.util.Objects;
-
-public class Book {
-    private String nameOfBooks;
-    private String nameOfAuthors;
-    //since it should be a of 13 Digits
-    private String isbnNumberOfBooks;
-
-    public Book() {
+        public class Book {
+            private String nameOfBooks;
+            private String nameOfAuthors;
+            //since it should be a of 13 Digits
+            private String isbnNumberOfBooks;
+public Book() {
         this.nameOfBooks = "MATHEMATICS";
         this.nameOfAuthors = "RD SHARAMA";
         this.isbnNumberOfBooks = "5639206778924";
