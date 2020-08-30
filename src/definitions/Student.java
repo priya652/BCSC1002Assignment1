@@ -13,4 +13,14 @@ public class Student {
     private long studentUniversityRollNo;
     private int numberOfBooksIssued;
     private Book[] BooksIssuedByStudent;
+//NOW, WE WILL CREATE GETTER METHOD FOR ABOVE FIELDS
+
+    public Student(String firstNameOfStudent, String secondNameOfStudent, String lastNameOfStudent,
+                   long studentUniversityRollNo, int numberOfBooksIssued) {
+        this.firstNameOfStudent = firstNameOfStudent;
+        this.middleNameOfStudent = middleNameOfStudent;
+        this.lastNameOfStudent = lastNameOfStudent;
+        this.studentUniversityRollNo = studentUniversityRollNo;
+        this.numberOfBooksIssued = numberOfBooksIssued;
+    }
 }
